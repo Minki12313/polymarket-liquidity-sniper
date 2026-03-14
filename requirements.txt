@@ -1,0 +1,6 @@
+requests
+websocket-client
+PyYAML
+loguru
+pytest
+typer==0.9

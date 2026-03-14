@@ -1,0 +1,28 @@
+# Polymarket Liquidity Sniper Bot config
+
+api_key: ""
+api_url: "https://gamma-api.polymarket.com"
+
+live: false
+log_level: "INFO"
+data_dir: "data"
+
+markets_whitelist: []
+markets_blacklist: []
+
+max_order_amount: 50
+max_daily_loss: 100
+
+rate_limit_per_minute: 20
+alert_webhook: ""
+
+min_market_liquidity: 1000
+min_price: 0.40
+max_price: 0.60
+
+poll_interval_seconds: 15
+dedupe_window_seconds: 300
+
+take_profit_pct: 0.05
+stop_loss_pct: 0.03
+max_hold_seconds: 7200

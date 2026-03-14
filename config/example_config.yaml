@@ -1,0 +1,11 @@
+# Example config for Polymarket Liquidity Sniper Bot
+api_key: ''   # Insert your Polymarket API key (if required)
+api_url: 'https://polymarket.com/api/v3'
+live: false              # Default to shadow (simulation) mode
+markets_whitelist: []    # Market IDs to snipe, or empty for all
+markets_blacklist: []    # Markets to avoid
+max_order_amount: 50     # USD max amount per order
+max_daily_loss: 100      # USD max possible loss per 24h
+log_level: INFO
+rate_limit_per_minute: 20
+alert_webhook: ''        # Optional: Discord/webhook for alerts
